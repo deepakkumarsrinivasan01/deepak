@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    
+ <input type="text" name="button" id="ab">
+ <br>
+ <br>  
+ <input type="text" name="button" id="cd"> 
+ 
+<input type="submit" onclick="cal()">
+ <br>
+ <br>
+ <input type="text"  id="ef">
+
+    
+</body>
+<script>
+function cal()
+{
+var x=parseInt(document.getElementById ("ab").value);
+var y=parseInt(document.getElementById ("cd").value);
+var sum=x*y;
+
+
+document.getElementById ("ef").value=sum;
+}
+
+</script>
+</html>
